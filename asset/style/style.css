@@ -1,0 +1,68 @@
+/* style.css */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fd0000;
+  color: #fff;
+  padding: 10px;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+header p {
+  margin: 0;
+  color: #555;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: space-around;
+  background-color: #00b5fd;
+  color: #fff;
+  padding: 10px;
+}
+
+.profile-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1px;
+  padding: 1px;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+footer {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px;
+  text-align: center; /* Pusatkan teks secara horizontal */
+}
+
+/* Opsi: Tambahkan efek hover pada tautan dalam footer */
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
