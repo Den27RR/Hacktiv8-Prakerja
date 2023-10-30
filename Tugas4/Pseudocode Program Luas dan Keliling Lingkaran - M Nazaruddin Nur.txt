@@ -1,0 +1,15 @@
+- Pseudocode Program Luas dan Keliling Lingkaran -
+Muhammad Nazaruddin Nur
+Kartu Prakerja
+
+1. Mulai program
+2. Tampilkan halaman beranda dengan formulir input
+3. Tampilkan label "Masukkan jari-jari lingkaran" di atas kolom input
+4. Berikan kolom input teks untuk pengguna memasukkan nilai jari-jari (misalnya, "input_radius")
+5. Tampilkan tombol "Hitung"
+6. Jika tombol "Hitung" diklik:
+   - Ambil nilai jari-jari dari "input_radius"
+   - Hitung luas lingkaran (luas) dengan rumus luas = π * r^2
+   - Hitung keliling lingkaran (keliling) dengan rumus keliling = 2 * π * r
+   - Tampilkan hasil luas dan keliling lingkaran di bawah tombol "Hitung"
+7. Selesai program
